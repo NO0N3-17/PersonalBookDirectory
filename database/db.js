@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const URI = "mongodb+srv://admin:lostphoenix@noone.wc7f1.mongodb.net/PersonalBookDir?retryWrites=true&w=majority"
+const URI = ""
 
 const connect = async () => {
     try{
