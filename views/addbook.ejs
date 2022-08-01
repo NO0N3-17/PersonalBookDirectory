@@ -1,0 +1,20 @@
+<%- include('./partials/header.ejs') %>
+
+
+<div class="questionadd">
+<div class="form-group">
+
+    <form action="/addbook" method="post">
+        <label for="bookt">Book Title:</label>
+      <input id="bookt" type="text" name="title" required="" class="form-control"/><br />
+      <label for="booka">Author Name:</label>
+      <input id="booka" type="text" name="author" required="" class="form-control"/><br />
+      <label for="bookisbn">ISBN:</label>
+      <input id="bookisbn" type="tel" name="isbn" required="" class="form-control"/><br />
+        <center><button type="submit" class="btn btn-primary">Add Book</button></center> 
+    </form>
+</div>
+</div>
+
+
+<%- include('./partials/footer.ejs') %> 
